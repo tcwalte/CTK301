@@ -1,0 +1,72 @@
+
+   
+   /*
+   color:#7965db;
+    background-color: #e6905e;
+
+
+
+    color:#e8f92d;
+    background-color: #8a2ee0;
+
+
+
+    color:#e14040;
+    background-color: #2aea24;
+
+
+    color:#302e37;
+    background-color: #ff30ac;
+
+h1 <h1> to <h1 id="h1S">
+ 
+h2 <h2> to <h2 class="h2S">
+
+h3 <h3> to <h3 class="h3S">
+
+p <p> to <p class="ps">
+
+*/
+
+#h1S {
+    color:#7965db;
+    background-color: #e6905e;
+}
+
+.h2S {
+    color:#e8f92d;
+    background-color: #8a2ee0;
+}
+
+.h3S {
+    color:#e14040;
+    background-color: #2aea24;
+}
+
+.ps {
+    color:#302e37;
+    background-color: #ff30ac;
+}
+
+a:link {
+    color: #e31111;
+  }
+  
+  a:visited {
+    color: #34f77c;
+  }
+  
+  a:hover {
+    color: #e8ff3c;
+  }   
+
+  .divs {
+    color:#636363;
+    background-color: #ff1586;
+  }
+
+  .spans {
+    color:#f6a818;
+    background-color: #715485;
+  }
+
