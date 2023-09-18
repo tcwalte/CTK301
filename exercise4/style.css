@@ -1,0 +1,53 @@
+#sh1 {
+    color:rgb(255, 255, 255);
+    background-color: #7572f8;
+}
+
+header {
+    background-color:#7572f8;
+}
+
+.darkyellow {
+    color:rgb(133, 186, 10)
+}
+
+footer {
+    background-color: yellow;
+}
+
+
+.yellowbg {
+    background-color: yellow;
+}
+
+.yellowtx { 
+    color:yellow;
+}
+
+.redtx {
+    color:red;
+}
+
+.dkgreenbg {
+    background-color:#004815;
+
+}
+
+.ltgreenbg {
+background-color: #1bef5a;
+}
+
+.bluetxoc {
+    color:blue;
+}
+
+a:link {
+    color: #008614;
+    text-decoration: none;
+  }
+
+a:hover {
+    color: #fe1616;
+    text-decoration: underline;
+  }   
+
