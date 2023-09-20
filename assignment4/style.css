@@ -1,0 +1,100 @@
+
+   
+   /*
+   color:#7965db;
+    background-color: #e6905e;
+
+
+
+    color:#e8f92d;
+    background-color: #8a2ee0;
+
+
+
+    color:#e14040;
+    background-color: #2aea24;
+
+
+    color:#302e37;
+    background-color: #ff30ac;
+
+h1 <h1> to <h1 id="h1S">
+ 
+h2 <h2> to <h2 class="h2S">
+
+h3 <h3> to <h3 class="h3S">
+
+p <p> to <p class="ps">
+
+*/
+
+#h1S {
+    color:#ff8400;
+    background-color: #1c11ed;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.h2S {
+    color:#ff8400;
+    background-color: #1bec53;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.h3S {
+    color:#ff8400;
+    background-color: #ea2424;
+    font-style: italic;
+    font-weight: normal;
+}
+
+/* heading edited for assigment 4 above */
+
+.ps {
+    color:#302e37;
+    background-color: #ff30ac;
+}
+
+a:link {
+    color: #e31111;
+  }
+  
+  a:visited {
+    color: #34f77c;
+  }
+  
+  a:hover {
+    color: #e8ff3c;
+  }   
+
+  .divs {
+    color:#636363;
+    background-color: #ff1586;
+  }
+
+  .spans {
+    color:#f6a818;
+    background-color: #715485;
+  }
+
+/* assimgnet 4 style below */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(img2.jpeg);
+}
+
+.center {
+  text-align: center;  
+}
+
+.just {
+  text-align: right;
+}
+
+img {
+  border: 50px solid black;
+  padding: 10px;
+  background-color: #e8ff3c;
+}
