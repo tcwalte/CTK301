@@ -1,0 +1,211 @@
+header {
+    background-image: linear-gradient(rgb(1, 185, 185), rgb(77, 77, 246), rgb(51, 51, 245), blue);
+    font-weight: normal;
+    grid-column: span 12;
+}
+
+header a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    color: cyan;
+    font-weight: normal;
+    padding: 15px 20px 0px 20px;
+}
+
+header a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    padding: 15px 20px 0px 20px;
+}
+
+.wrapper {
+    border: 5px solid blue;
+    background-color: white;
+    grid-template-columns: repeat(12, 1fr);
+    display: grid;
+    margin: 1em auto;
+    width: 960px;
+}
+
+body {
+    background-color: rgb(163, 163, 163);
+}
+
+footer {
+    grid-column: span 12;
+    background-color: rgb(183, 3, 3);
+    padding: 10px;
+    border-top: 5px solid blue;
+}
+
+.lsb {
+    grid-column: span 4;
+    background-color: rgb(80, 214, 238);
+    text-align: justify;
+}
+
+.lsbw {
+    grid-column: span 4;
+    text-align: justify;
+}
+
+
+.lsb h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    border-bottom: 3px solid blue;
+    margin: 20px;
+    padding-bottom: 5px;
+    color: blue;
+}
+
+main h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    border-bottom: 3px solid blue;
+    padding-bottom: 5px;
+    margin: 20px;
+    color: blue;
+}
+
+.lsbw h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    border-bottom: 3px solid blue;
+    margin: 20px;
+    padding-bottom: 5px;
+    color: blue;
+}
+
+.lsb p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.lsbw p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.lsbw img {
+    width: 250px;
+    margin-left: 30px;
+}
+
+main {
+    grid-column: span 8;
+    font-family: Georgia, 'Times New Roman', Times,
+}
+
+main p {
+    margin: 20px;
+}
+
+.imglm {
+    border: 3px solid blue;
+    margin: 20px;
+    float: left;
+}
+
+.redl {
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+}
+
+main a:hover {
+    font-weight: bold;
+    color: rgb(255, 151, 151);
+    text-decoration: none;
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+nav a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    background-image: linear-gradient(rgb(1, 185, 185), rgb(77, 77, 246), rgb(51, 51, 245), blue);
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 24.6%;
+}
+
+ul {
+    padding: 0px;
+}
+
+span {
+    opacity: 0;
+}
+
+/*
+nav {
+    clear: both;
+    grid-column: span 3;
+}
+nav li a {
+    display: block;
+    width: 150px;
+    margin: 10px;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #9d0000;
+} 
+
+nav a {
+    color:white;
+    text-decoration: none;
+    background-color: rgb(246, 50, 50);
+}
+
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: cyan;
+    font-weight: normal;
+     background-image: linear-gradient(rgb(1, 185, 185), rgb(77, 77, 246), rgb(51, 51, 245), blue);
+}
+
+nav a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+     background-image: linear-gradient(rgb(1, 185, 185), rgb(77, 77, 246), rgb(51, 51, 245), blue);
+}
+*/
