@@ -1,0 +1,256 @@
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 0px 0px 0px 0px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  font-family: Helvetica, sans-serif;
+  background-image: url(pic2.jpg);
+}
+
+.boxpic1 {
+  width: 377px;
+  margin: 40px 10px 0px 10px;
+  height: 450px;
+  
+}
+
+.boxpic2 {
+  width: 377px;
+  margin: 40px 10px 0px 10px;
+  height: 450px;
+  
+}
+
+.boxpic3 {
+  width: 377px;
+  margin: 40px 10px 0px 10px;
+  height: 450px;
+  
+}
+
+header {
+  grid-column: span 12;
+}
+
+#topbar {
+  background: linear-gradient(90deg, rgba(252,70,70,1) 10%, rgba(190,104,129,1) 30%, rgba(132,137,194,1) 70%, rgba(63,174,251,1) 90%);
+  height: 50px;
+}
+
+#topbar p {
+  font-size: large;
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px 0px 0px 650px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 0px;
+}
+
+nav a:hover {
+  color: rgb(175, 175, 175);
+  text-decoration: none;
+} 
+
+nav a {
+  color:black;
+  text-decoration: none;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 30px;
+  margin-left: 30px;
+}
+
+nav {
+background-color: rgb(0, 128, 179);
+padding: 10px;
+height: 70px;
+
+}
+
+footer {
+  grid-column: span 12;
+  background-color: rgb(0, 128, 179);
+  padding: 10px 0px;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr 1fr;
+
+}
+
+.navimg {
+  width: 200px;
+  float: left;
+  padding-left: 20px;
+}
+
+nav {
+  grid-column: span 12;
+}
+
+.cimg {
+  width: 200px;
+  border-radius: 50%;
+  border: solid black 4px;
+  float: left;
+  margin: 40px;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px 0px 0px 650px;
+}
+
+footer li {
+  display: inline-block;
+  padding: 0px;
+}
+
+footer a:hover {
+  color: rgb(175, 175, 175);
+  text-decoration: none;
+} 
+
+footer a {
+  color:black;
+  text-decoration: none;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 30px;
+  margin-left: 30px;
+}
+
+p footer {
+  float: left;
+}
+
+.msc1 {
+  display: inline-block;
+  grid-column: span 12;
+}
+
+.msc2 {
+  display: inline-block;
+}
+
+
+
+.s3pe {
+  display: inline-block; 
+}
+
+.s3pe a {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0px;
+  background-color: red;
+  color: white;
+  text-decoration: none;
+}
+
+.s3pe img {
+  display: block;
+  margin: 0;
+
+}
+
+.s4pe {
+  display: inline-block; 
+}
+
+.s4pe a {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0px;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+}
+
+.s4pe img {
+  display: block;
+  margin: 0;
+}
+
+.s5pe {
+  display: inline-block; 
+}
+
+.s5pe a {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0px;
+  background-color: yellow;
+  text-decoration: none;
+  color: white;
+}
+
+.s5pe img {
+  display: block;
+  margin: 0;
+}
+
+.navbt {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  padding: 20px 0px;
+  background-color: red;
+  width: 100px;
+  height: 15px;
+}
+
+.gapb {
+grid-column: span 12;
+height: 40px;
+}
+
+.s3pe a:hover {
+  color: rgb(175, 175, 175);
+  text-decoration: none;
+}
+.s5pe a:hover {
+  color: rgb(175, 175, 175);
+  text-decoration: none;
+}
+.s4pe a:hover {
+  color: rgb(175, 175, 175);
+  text-decoration: none;
+}
+  
+.navimgb {
+  width: 200px;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.div3s {
+  margin: 0 auto;
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+main {
+  display: grid;
+  grid-column: span 12;
+}
